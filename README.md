@@ -1,2 +1,0 @@
-# ResumeIQ
-AI Resume Analyzer
