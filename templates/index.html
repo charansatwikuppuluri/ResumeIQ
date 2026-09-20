@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resume Analyzer</title>
+</head>
+
+<body>
+
+    <h1>Resume Analyzer</h1>
+
+    <p>
+        Upload your resume and select the job role you are applying for.
+    </p>
+
+    <form>
+
+        <label for="job_role">Select Job Role:</label>
+
+        <select id="job_role" name="job_role">
+            <option value="data_scientist">Data Scientist</option>
+            <option value="software_developer">Software Developer</option>
+            <option value="web_developer">Web Developer</option>
+            <option value="data_analyst">Data Analyst</option>
+        </select>
+
+        <br><br>
+
+        <label for="resume">Upload Resume:</label>
+
+        <input type="file" id="resume" name="resume">
+
+        <br><br>
+
+        <button type="submit">Analyze Resume</button>
+
+    </form>
+
+</body>
+</html>
